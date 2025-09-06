@@ -22,8 +22,8 @@ djangorestframework-gis: Django REST framework 的 GIS 扩展，用于处理地�
 Pandas: 一个强大的数据分析和操作库，用于处理表格数据。\
 Heapyq: Python 标准库中的一个模块，提供了堆队列算法，也称为优先队列算法。\
 GDAL: 一个用于读写栅格和矢量地理空间数据的库，通过 GDAL_LIBRARY_PATH 配置在 Django 中使用。\
-PyQt-Fluent-Widgets: 一款pyQt6的样式库。
-cesium：用于构建和模拟三维场景的。
+PyQt-Fluent-Widgets: 一款pyQt6的样式库。\
+cesium：用于构建和模拟三维场景的。\
 
 **三、具体功能（仅展示了qt端的，web端的与其布局类似）**\
 1.框架页面：主要显示标题、logo、各个功能页面的索引、登入页面和注册按钮。
