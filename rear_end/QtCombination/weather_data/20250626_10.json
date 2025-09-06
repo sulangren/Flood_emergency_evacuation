@@ -1,0 +1,30 @@
+{
+    "code": "200",
+    "updateTime": "2025-06-26T10:18+08:00",
+    "fxLink": "https://www.qweather.com/weather/zhengzhou-101180101.html",
+    "now": {
+        "obsTime": "2025-06-26T10:16+08:00",
+        "temp": "20",
+        "feelsLike": "21",
+        "icon": "501",
+        "text": "雾",
+        "wind360": "45",
+        "windDir": "东北风",
+        "windScale": "1",
+        "windSpeed": "5",
+        "humidity": "90",
+        "precip": "0.0",
+        "pressure": "996",
+        "vis": "5",
+        "cloud": "100",
+        "dew": "18"
+    },
+    "refer": {
+        "sources": [
+            "QWeather"
+        ],
+        "license": [
+            "QWeather Developers License"
+        ]
+    }
+}
