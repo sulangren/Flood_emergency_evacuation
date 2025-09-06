@@ -23,21 +23,21 @@ Pandas: 一个强大的数据分析和操作库，用于处理表格数据。\
 Heapyq: Python 标准库中的一个模块，提供了堆队列算法，也称为优先队列算法。\
 GDAL: 一个用于读写栅格和矢量地理空间数据的库，通过 GDAL_LIBRARY_PATH 配置在 Django 中使用。\
 PyQt-Fluent-Widgets: 一款pyQt6的样式库。\
-cesium：用于构建和模拟三维场景的。\
+cesium：用于构建和模拟三维场景的。
 
 **三、具体功能（仅展示了qt端的，web端的与其布局类似）**\
 1.框架页面：主要显示标题、logo、各个功能页面的索引、登入页面和注册按钮。
 
 2.登入界面：Qt端由于时间问题，所采用了最基本的布局方式。\
+web端所采用登入界面嵌入到了框架页面，以弹窗的形式展示。\
 ![image](https://github.com/sulangren/Flood_emergency_evacuation/blob/master/data/image/01.png)
-            web端所采用登入界面嵌入到了框架页面，以弹窗的形式展示。\
-            (图片待补充）\
+(图片待补充）\
 3.首页：Qt端采用滚动展示模块，对首页照片进行循环展示。\
 ![image](https://github.com/sulangren/Flood_emergency_evacuation/blob/master/data/image/02.png)
-        web端采取Ant Design的Carousel（走马灯）控件，对基础本的功能进行滚动式播放。\
-        (图片待补充）\
+web端采取Ant Design的Carousel（走马灯）控件，对基础本的功能进行滚动式播放。\
+(图片待补充）\
 4.注册页面：qt端点击注册按钮，在浏览器中所打开的注册页面所采用的和web端类似的注册页面，但是略有不同，qt端是注册后三秒内关闭网页，而web端则是返回web主页。\
-        (图片待补充) \
+(图片待补充) 
 
 5.天气显示：qt端的布局和web端类似，我们采用两种显示方式，第一种为调用高德api组件，进行的天气显示，第二种为每隔一小时向墨迹天气api索取当前地区的天气数据，进行整合储存到数据库中，访问天气时从数据库中调出当前天气信息。\
 ![image](https://github.com/sulangren/Flood_emergency_evacuation/blob/master/data/image/03.png)
